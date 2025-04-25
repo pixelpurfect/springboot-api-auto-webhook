@@ -1,0 +1,17 @@
+{
+    "startup": "POST /generateWebhook triggered",
+    "response": {
+      "webhook": "https://bfhldevapigw.healthrx.co.in/hiring/testWebhook",
+      "accessToken": "token",
+      "data": {
+        "users": [
+          { "id": 1, "name": "Aniket", "follows": [2, 3] },
+          { "id": 2, "name": "Shubham", "follows": [1] },
+          { "id": 3, "name": "Ashish", "follows": [2] }
+        ]
+      }
+    },
+    "processedOutcome": [[1,2]],
+    "webhookPost": "Success"
+  }
+  
